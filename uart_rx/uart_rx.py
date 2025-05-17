@@ -1,6 +1,6 @@
 import serial
 import time
-COM_PORT='COM17'
+COM_PORT='COM17'    #Change the port according to your device
 BAUD_RATE=115200
 try:
     ser=serial.Serial(COM_PORT, BAUD_RATE, timeout=1)
