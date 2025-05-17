@@ -6,8 +6,8 @@ This project implements a minimal UART (Universal Asynchronous Receiver Transmit
 
 It includes:
 
-- A parameterized UART TX core: `uart_tx_8bit.v`
-- A finite state machine-based controller: `uart_tx_top.v`
+- A parameterized UART TX core: `uart.v`
+- A finite state machine-based controller: `top.v`
 - Designed to operate at a clock frequency of **27 MHz**
 - Baud rate configured for **115200 bps**
 
