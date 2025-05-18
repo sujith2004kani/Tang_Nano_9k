@@ -36,6 +36,12 @@ This project implements a **UART Receiver** module on the Tang Nano 9K FPGA boar
 - Passes received data to the LED module.
 - Resets system and handles synchronous clocking.
 
+### 4. `uart_rx.py`
+
+- Python script to set up the serial communication.
+- Receives data through keyboard.
+- Passes received data to the FPGA's Rx modules.
+
 ---
 
 ## Hardware Specifications
